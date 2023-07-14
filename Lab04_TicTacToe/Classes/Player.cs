@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Lab04_TicTacToe.Classes
+﻿namespace Lab04_TicTacToe.Classes
 {
     public class Player
     {

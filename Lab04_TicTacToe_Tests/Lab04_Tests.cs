@@ -1,6 +1,4 @@
-﻿using Xunit;
-using Lab04_TicTacToe.Classes;
-using System.Collections.Generic;
+﻿using Lab04_TicTacToe.Classes;
 
 namespace Lab04_TicTacToe.Tests
 {
