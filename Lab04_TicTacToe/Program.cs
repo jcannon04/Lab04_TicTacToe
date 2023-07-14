@@ -1,5 +1,4 @@
-﻿using System;
-using Game = Lab04_TicTacToe.Classes.Game;
+﻿using Game = Lab04_TicTacToe.Classes.Game;
 using Player = Lab04_TicTacToe.Classes.Player;
 
 
@@ -16,17 +15,20 @@ namespace Lab04_TicTacToe
 
         static void StartGame()
         {
-            // TODO: Setup your game. Create a new method that creates your players and instantiates the game class. Call that method in your Main method.
-            // You are requesting a Winner to be returned, Determine who the winner is output the celebratory message to the correct player. If it's a draw, tell them that there is no winner. 
+            Console.Write("Player 1 Name: ");
+            string p1Name = Console.ReadLine();
+            Console.Write("Player 2 Name: ");
+            string p2Name = Console.ReadLine();
+
             Player p1 = new()
             {
-                Name = "Josh",
+                Name = p1Name,
                 Marker = "X"
             };
 
             Player p2 = new()
             {
-                Name = "Jared",
+                Name = p2Name,
                 Marker = "O"
             };
 
